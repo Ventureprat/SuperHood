@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #d61b1b;
+  background-image: url(images/mario.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+  height: 118px;
+  text-align: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  background-color: rgba(10, 240, 190, 0.301);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  height: 400px;
+  text-align: center;
+  margin-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.61);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1 {
+  color: white;
+  font-size: 84px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* compound selectors to specify your tags */
+nav a {
+  text-decoration: none;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* other way :- not using compound class by creating a classin a */
+/* .no-underline {
+  text-decoration: none;
+} */
+footer p {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(182, 180, 180);
+}
+
+h5 {
+  text-align: center;
+  color: blanchedalmond;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.maps {
+  padding-bottom: 100px;
+}
+
+section .video {
+  padding-left: 230px;
+
+  padding: bottom 20px;
+}
+section h3 {
+  font-family: cursive, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+  padding: 50px 20px;
+  text-align: center;
+}
