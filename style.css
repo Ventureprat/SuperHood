@@ -37,6 +37,7 @@ main {
   margin-top: 80px;
   padding-left: 240px;
   padding-right: 240px;
+  padding-bottom: 600px;
 }
 
 footer {
@@ -91,9 +92,26 @@ section .video {
 
   padding: bottom 20px;
 }
-section h3 {
+h3 {
   font-family: cursive, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: yellow;
   padding: 50px 20px;
   text-align: center;
+}
+main img {
+  width: 560px;
+  height: 315px;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(19, 19, 92);
+  text-align: center;
+  padding-top: 300px;
+}
+.clickhere {
+  color: white;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 500px;
 }
